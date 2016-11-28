@@ -5,6 +5,10 @@ body{
 	background: #999999
 }
 
+video{
+	max-width:100%;
+}
+
 nav{
 	font-size: 1.5em;
 	background-color: #000000;
@@ -13,7 +17,7 @@ nav{
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 	color: #888;
 	display: block;
-	margin: 5% 22px 5% 22px;
+	margin: 0 5% 5px 5%;
 	overflow: hidden;
 	width: 90%; 
 }
