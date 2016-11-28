@@ -1,84 +1,31 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Home">
+<html lang="en">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/bootstrap.css" rel="stylesheet">
+<!-- To Allow HTML To Be Saved In Smaller Segments -->
 
-
-    <title>Home</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-
-          <h1 id="project_title">Home</h1>
-          <h2 id="project_tagline">Welcome</h2>
-		  
-		</header>
-         
-    <!-- NAVBAR -->
-    <div class="container navbar-wrapper">
-
-      <div class="navbar navbar-inverse">
-        <div class="navbar-inner">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-			  <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="H4HComics.com">Haven For Heroes</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!-- /.navbar-inner -->
-      </div><!-- /.navbar -->
-
-    </div><!-- /.container -->
-
-        
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-	  <p>Hello, and welcome to my site. It's currently under construction, so I hope you don't mind the mess.
-
- 		</section>
-	</div>
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Contact Larry Force:
-        <br>Phone: 315-209-9484
-        <br>Email: Larry4ce@Gmail.com
-        </p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>LarryForce.Net</title>
+  <meta name="description" content="Programmer and Web Developer">
+  <meta name="author" content="Larry Force">
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
   
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="js/bootstrap.min.js"></script>
+  <!-- compressed, production jQuery 3.1.1 slim build -->
+  <script src="js/jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#navbar").load("navbar.html"); 
+    });
+    </script> 
+  
+</head>
 
+<body>
+	<div id="navbar"></div> 
+	<script src="js/scripts.js"></script>
+</body>
 </html>
