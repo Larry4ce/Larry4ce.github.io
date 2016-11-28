@@ -2,7 +2,11 @@ body{
 	padding: 0;
 	margin: 0;
 	font-size: 1.1em;
-	background: #999999
+	background: #000000;
+}
+
+div{
+	background-color:#666666; 
 }
 
 video{
@@ -11,8 +15,8 @@ video{
 
 nav{
 	font-size: 1.5em;
-	background-color: #000000;
-	border: 1px solid #333333;
+	background-color:#333333;
+	border: 1px solid #999999;
 	border-radius: 5px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 	color: #888;
