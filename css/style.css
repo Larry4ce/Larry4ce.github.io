@@ -6,12 +6,11 @@ body{
 }
 
 div{
-	background-color:#666666; 
+	
 }
 
 video{
 	max-width:100%;
-	overflow:hidden;
 }
 
 nav{
@@ -47,7 +46,8 @@ nav ul {
 
 .banner{
 	height: 150px;
-	width: 100%
+	width: 100%;
+	overflow: hidden;
 }
 
 .placeholder{
@@ -58,4 +58,11 @@ nav ul {
 		
 .hidden{
 	display:none !important;
+}
+
+#main{
+	border-radius: 5px;
+	width: 95%;
+	margin: auto;
+	background-color:#666666; 
 }
