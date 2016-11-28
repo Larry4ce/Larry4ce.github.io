@@ -44,6 +44,10 @@ nav ul {
 			text-decoration: none;
 		}
 
+.banner{
+	height:150px;
+}
+		
 .hidden{
 	display:none !important;
 }
