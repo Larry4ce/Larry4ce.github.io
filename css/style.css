@@ -58,7 +58,6 @@ nav{
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 	color: #888;
 	display: block;
-	margin: 0 5% 25px 5%;
 	overflow: hidden;
 	width: 100%; 
 }
@@ -98,9 +97,14 @@ nav ul {
 }
 
 #main{
-	border-radius: 5px;
-	width: 95%;
+	border-radius: 15px;
+	width: 90%;
 	margin: auto;
+	margin-top: 120px;
+	margin-bottom: 50px;
 	top: 0;
+	max-width: 900px;
 	position: relative;
+	background-color: black;
+	padding: 25px;
 }
